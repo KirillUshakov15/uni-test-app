@@ -1,3 +1,5 @@
+![uni-test-logo-img](https://github.com/KirillUshakov15/uni-test-app/blob/master/client/src/app/assets/uni-test-logo.png)
+
 # Приложение для проведения тестирований - UniTest
 
 SPA приложение с клиент-серверной архитектурой.
