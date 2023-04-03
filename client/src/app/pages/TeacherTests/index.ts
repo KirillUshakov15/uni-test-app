@@ -1,0 +1,1 @@
+export {TeacherTests as default} from './TeacherTests'

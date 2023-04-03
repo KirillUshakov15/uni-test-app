@@ -1,0 +1,15 @@
+.buttons{
+  display: flex;
+  margin-top: 20px;
+  flex-wrap: wrap;
+  align-content: start;
+
+  button{
+    margin-left: 5px;
+    margin-right: 5px;
+  }
+}
+
+.pressed{
+  background-color: #0d0c29;
+}

@@ -1,0 +1,20 @@
+.wrapper{
+
+  h2{
+    text-align: center;
+  }
+
+  > div{
+    margin-top: 15px;
+    display: flex;
+    word-break: break-all;
+
+    p{
+      font-size: 16px;
+    }
+  }
+
+  > Button{
+    margin-top: 20px;
+  }
+}

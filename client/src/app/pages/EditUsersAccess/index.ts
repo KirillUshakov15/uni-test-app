@@ -1,0 +1,1 @@
+export {EditUsersAccess as default} from './EditUsersAccess'

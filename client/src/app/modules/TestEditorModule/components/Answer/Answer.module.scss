@@ -1,0 +1,17 @@
+.answersContainer{
+  margin-top: 10px;
+  margin-bottom: 10px;
+  overflow: auto;
+  height: 100%;
+  span{
+    margin-left: 15px;
+    margin-right: 10px;
+  }
+  Input{
+    width: 80%;
+  }
+  .deleteBtn:hover{
+    background-color: #34326e;
+    cursor: pointer;
+  }
+}

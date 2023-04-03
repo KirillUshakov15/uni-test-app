@@ -1,0 +1,1 @@
+export {EditUniversities as default} from './EditUniversities'

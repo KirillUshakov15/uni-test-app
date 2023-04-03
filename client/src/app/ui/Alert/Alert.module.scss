@@ -1,0 +1,37 @@
+$width: 450px;
+
+.alert{
+  //width: $width;
+  height: 50px;
+  background-color: #34326e;
+  z-index: 9;
+  position: absolute;
+  top: 0;
+  //right: calc(50% - ($width / 2));
+  border-radius: 10px;
+  transform: translateY(-110%);
+  transition: 0.5s;
+}
+
+.alertShow{
+  transform: translateY(100%);
+  transition: 0.5s;
+}
+
+.alertBody{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  .icon{
+    margin: 15px;
+  }
+
+  .closeBtn{
+    border-radius: 5px;
+    margin: 15px;
+    cursor: pointer;
+  }
+}
+
+

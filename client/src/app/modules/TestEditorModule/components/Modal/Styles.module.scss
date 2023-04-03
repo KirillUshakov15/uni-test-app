@@ -1,0 +1,28 @@
+// MODAL STYLES
+.modalButtons{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 25px;
+  margin-right: 20px;
+  margin-left: 20px;
+}
+
+.errorsBody{
+
+  margin-top: 20px;
+
+  .error{
+    display: flex;
+    align-items: center;
+  }
+
+  .icon{
+    margin-right: 20px;
+  }
+
+  p{
+    color: red;
+    margin-top: 15px;
+    margin-bottom: 15px;
+  }
+}

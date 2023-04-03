@@ -1,0 +1,67 @@
+// LAYOUT STYLES
+.wrapper{
+  display: flex;
+  justify-content: space-between;
+}
+
+.displayNone{
+  display: none;
+}
+
+.body{
+  min-height: calc(100vh - 180px);
+  background-color: #1a193e;
+  box-shadow: 10px 5px 5px #0d0c29;
+}
+
+.footer{
+  display: flex;
+  justify-content: space-between;
+  Button{
+    margin-top: 10px;
+    height: 40px;
+  }
+  height: 50px;
+}
+
+
+
+// STEPS STYLES
+.stepsWrapper{
+  @extend .wrapper;
+  padding-left: 15px;
+  padding-right: 15px;
+
+  h4:hover{
+    cursor: pointer;
+    color: #8e8ea3;
+  }
+}
+
+.stepHeader{
+  height: 50px;
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+
+  span{
+    font-size: 18px;
+    margin-left: 15px;
+    margin-right: 15px;
+  }
+}
+
+// LOADER STYLE
+.loader{
+  display: flex;
+  background-color: #1a1942;
+  width: 100%;
+  min-height: calc(100vh - 80px);
+  position: relative;
+  align-items: center;
+  align-content: center;
+  justify-content: center;
+  overflow: auto;
+}
+
+// FORMS STYLES

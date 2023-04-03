@@ -1,0 +1,1 @@
+export {EditAccessLayout} from './components'

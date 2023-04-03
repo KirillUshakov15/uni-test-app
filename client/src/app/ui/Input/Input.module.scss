@@ -1,0 +1,43 @@
+.inputStyle{
+    margin: 5px;
+    border-radius: 10px;
+    background-color: #282753;
+    border: 1px solid #e4e4ed;
+    height: 35px;
+    width: 100%;
+    box-sizing: border-box;
+    padding-left: 10px;
+    padding-right: 35px;
+}
+
+.inputStyle:focus{
+   background-color: #34326e;
+}
+
+.inputStyle:hover{
+    background-color: #34326e;
+}
+
+.inputStyle::placeholder{
+    font-style: italic;
+    color: #8e8ea3;
+}
+
+.passwordContainer{
+    position: relative;
+    margin: 0;
+    padding: 0;
+
+    Input{
+        display: block;
+    }
+    .inputPasswordIcon{
+        cursor: pointer;
+        position: absolute;
+        top: 10px;
+        right: 10px;
+    }
+}
+
+
+

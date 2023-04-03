@@ -1,0 +1,28 @@
+.table{
+  background-color: #21204f;
+  border: 1px solid #8e8ea3;
+  //table-layout: fixed;
+  width: 100%;
+  margin-left: 20px;
+  margin-right: 20px;
+
+  td{
+    border: 1px solid #8e8ea3;
+    text-align: center;
+    padding: 10px;
+  }
+
+  th{
+    background-color: #1a193e;
+  }
+}
+
+.loader{
+  display: flex;
+  justify-content: center;
+}
+
+.sortableColumn{
+  cursor: pointer;
+  background-color: #34326e;
+}

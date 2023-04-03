@@ -1,0 +1,1 @@
+export {ResultViewerLayout} from './ResultViewerLayout'

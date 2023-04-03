@@ -1,0 +1,55 @@
+.wrapper{
+  background-color: #1a1942;
+  width: 100%;
+  min-height: calc(100vh - 80px);
+  position: relative;
+  display: flex;
+  align-items: center;
+  align-content: center;
+  justify-content: center;
+  overflow: auto;
+}
+
+.content{
+  h3{
+    text-align: center;
+    margin-bottom: 20px;
+  }
+
+  p, Button, h3{
+    margin-top: 20px;
+  }
+
+  p{
+    margin-left: 10px;
+    font-size: 14px;
+  }
+
+  h3{
+    text-align: center;
+    margin-top: 10px;
+  }
+
+  .roleContainer{
+    margin-top: 20px;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: center;
+  }
+
+  .nameContainer{
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+
+  .authContainer{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 5px;
+  }
+
+  .universityContainer{
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+}

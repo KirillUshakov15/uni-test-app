@@ -1,0 +1,59 @@
+.navbar {
+   display: flex;
+   justify-content: space-between;
+   margin-left: 20px;
+   align-items: center;
+   width: 100vw;
+}
+
+.logo{
+   cursor: pointer;
+   width: 260px;
+   height: 80px;
+}
+
+.navContainer{
+   text-transform: uppercase;
+   .Link{
+      margin-left: 20px;
+      text-decoration: none;
+      transition: color .2s linear;
+      position: relative;
+   }
+   .Link:after{
+      content: "";
+      width: 100%;
+      height: 3px;
+      display: none;
+      background-color: #a0a0bd;
+      position: absolute;
+      top: 100%;
+      left: 0;
+      z-index: 1;
+   }
+   .Link:hover{
+      color: #a0a0bd
+   }
+   .Link:hover:after{
+      display: block;
+   }
+}
+
+.authContainer{
+   //line-height: 5em;
+   cursor: pointer;
+   span{
+      margin-left: 15px;
+      margin-right: 15px;
+   }
+   span:hover{
+      color: #a0a0bd
+   }
+}
+
+
+
+
+
+
+

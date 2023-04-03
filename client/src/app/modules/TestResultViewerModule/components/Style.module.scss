@@ -1,0 +1,35 @@
+.filterControlsContainer{
+  padding: 25px;
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+  &{
+    //margin-left: 15px;
+    padding-bottom: 20px;
+  }
+
+  Input{
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+
+  .selectContainer{
+    width: 20%;
+  }
+}
+
+// TABLE STYLE
+.tableContainer{
+  display: flex;
+  justify-content: center;
+}
+
+// WRAPPER STYLE
+.wrapper{
+  h3{
+    margin: 0;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-align: center;
+  }
+}

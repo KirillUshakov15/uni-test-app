@@ -1,0 +1,1 @@
+export {TestEditor as default} from './TestEditor'

@@ -1,0 +1,23 @@
+button{
+  margin-top: 0;
+  padding: 10px;
+  background-color: #21204f;
+  border-radius: 10px;
+  border-color: #a0a0bd;
+  transition: color .5s;
+  cursor: pointer;
+  div{
+    display: flex;
+  }
+}
+
+button:disabled{
+  background-color: #2f2c6e;
+  cursor: default;
+  font-style: italic;
+}
+
+button:hover:enabled{
+  background-color: #171638;
+}
+

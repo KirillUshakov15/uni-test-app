@@ -1,0 +1,1 @@
+export {SuccessRegistrationModal} from './SuccessRegistrationModal'

@@ -1,0 +1,11 @@
+.pageLoader{
+  display: flex;
+  background-color: #1a1942;
+  width: 100%;
+  min-height: calc(100vh - 80px);
+  position: relative;
+  align-items: center;
+  align-content: center;
+  justify-content: center;
+  overflow: auto;
+}

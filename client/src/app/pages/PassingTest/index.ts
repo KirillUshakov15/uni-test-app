@@ -1,0 +1,1 @@
+export {PassingTest as default} from './PassingTest'

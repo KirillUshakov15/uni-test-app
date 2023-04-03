@@ -1,0 +1,42 @@
+.wrapper{
+  display: flex;
+  min-height: calc(100vh - 80px);
+
+  .imgContainer{
+    img{
+      width: 75%;
+      padding-bottom: 25px;
+      //height: 45%;
+      margin-left: 40px;
+      //box-shadow: 10px 5px 5px #0d0c29;
+    }
+    width: 50%;
+  }
+
+  .textContainer{
+    width: 50%;
+    margin-right: 35px;
+
+    div{
+      h2{
+        margin-bottom: 20px;
+      }
+
+      p{
+        font-size: 17px;
+        margin-bottom: 10px;
+      }
+    }
+  }
+}
+
+.centerScreen {
+  background-color: #1a1942;
+  min-height: calc(100vh - 80px);
+  position: relative;
+  display: flex;
+  align-items: center;
+  align-content: center;
+  justify-content: center;
+  overflow: auto;
+}

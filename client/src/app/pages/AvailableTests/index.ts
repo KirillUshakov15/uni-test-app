@@ -1,0 +1,1 @@
+export {AvailableTests as default} from './AvailableTests'

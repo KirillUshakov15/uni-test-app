@@ -1,0 +1,138 @@
+// LAYOUT STYLES
+
+$height: calc(100vh - 180px);
+$panelWidth: 25%;
+
+.header{
+  height: 50px;
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+
+  span{
+    font-size: 18px;
+    margin-left: 15px;
+    margin-right: 15px;
+  }
+}
+
+.bodyLayout{
+  min-height: $height;
+  background-color: #1a193e;
+  box-shadow: 10px 5px 5px #0d0c29;
+
+  .navPanel{
+    position: absolute;
+    width: $panelWidth;
+    right: 0;
+    min-height: $height;
+    background-color: #0d0c29;
+
+    display: flex;
+    flex-wrap: wrap;
+    align-content: start;
+
+    .selectedButton{
+      background-color: #0d0c29;
+    }
+
+    .completeButton{
+      background-color: #524f9c;
+    }
+
+    Button{
+      margin-top: 10px;
+      margin-left: 10px;
+      height: 40px;
+    }
+  }
+
+  .body{
+    position: absolute;
+    min-width: calc(100vw - $panelWidth);
+    height: $height;
+    left: 0;
+  }
+}
+
+.footer{
+  display: flex;
+  justify-content: space-between;
+  Button{
+    margin-top: 10px;
+    height: 40px;
+  }
+  height: 50px;
+}
+
+.loader{
+  min-height: calc(100vh - 80px);
+  position: relative;
+  display: flex;
+  align-items: center;
+  align-content: center;
+  justify-content: center;
+  overflow: auto;
+}
+
+// ANSWER BODY STYLES
+.answerBody{
+  display: flex;
+  flex-flow: column;
+  line-height: 25px;
+}
+
+// QUESTION BODY STYLES
+.questionWrapper{
+  min-height: $height;
+  position: relative;
+  display: flex;
+  align-items: center;
+  align-content: center;
+  justify-content: center;
+  overflow: auto;
+
+  .card{
+    > div {
+      word-break: break-all;
+    }
+  }
+}
+
+// MODAL STYLES
+.answersStatusBody{
+  overflow: auto;
+  text-align: center;
+  margin-top: 15px;
+
+  ul{
+    margin-top: 10px;
+  }
+}
+
+.buttonsContainer{
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+
+// RESULT FORM STYLES
+.wrapper{
+  background-color: #1a1942;
+  width: 100%;
+  min-height: calc(100vh - 80px);
+  position: relative;
+  display: flex;
+  align-items: center;
+  align-content: center;
+  justify-content: center;
+  overflow: auto;
+
+  .dateContainer{
+
+  }
+
+  *p, Button{
+    margin-top: 15px;
+  }
+}

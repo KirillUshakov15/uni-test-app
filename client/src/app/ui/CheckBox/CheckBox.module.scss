@@ -1,0 +1,23 @@
+.wrapper .textField {
+  cursor: pointer;
+}
+
+.wrapper{
+  margin-left: 10px;
+  margin-right: 10px;
+  display: inline-block;
+
+  .checkField {
+    cursor: pointer;
+    width: 17px;
+    height: 17px;
+    content: '';
+  }
+
+  .textField{
+    position: relative;
+    top: -3px;
+    padding: 0;
+    left: 5px;
+  }
+}

@@ -1,0 +1,19 @@
+.header{
+  height: 80px;
+  background-color: #0d0c29;
+  display: flex;
+  justify-content: center;
+}
+
+.content{
+  //padding: 10px;
+  background-color: #1a1942;
+  min-height: calc(100vh - 80px);
+  box-sizing: border-box;
+}
+
+.footer{
+  background-color:#1a193e;
+  height: 70px;
+  margin-top: -70px;
+}

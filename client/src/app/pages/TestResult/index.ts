@@ -1,0 +1,1 @@
+export {TestResult as default} from './TestResult'

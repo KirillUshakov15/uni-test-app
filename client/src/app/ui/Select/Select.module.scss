@@ -1,0 +1,19 @@
+.selectContainer{
+  background-color: #282753;
+  width: 100%;
+  height: 30px;
+  margin: 5px;
+  border: 1px solid #e4e4ed;
+  border-radius: 7px;
+
+}
+
+.selectContainer:hover:enabled{
+  background-color: #34326e;
+  cursor: pointer;
+}
+
+.title{
+  font-size: 14px;
+  font-style: italic;
+}

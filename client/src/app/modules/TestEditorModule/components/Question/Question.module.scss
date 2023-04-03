@@ -1,0 +1,42 @@
+.wrapper{
+  margin-top: 20px;
+  background-color: #0d0c29;
+  border-radius: 10px;
+}
+
+.questionHeader{
+  display: flex;
+  justify-content: space-between;
+  padding: 5px;
+
+  .closeBtn:hover{
+    background-color: #34326e;
+    cursor: pointer;
+  }
+}
+.answer:empty{
+  display: none;
+}
+
+.answer{
+  border: 1px solid #e4e4ed;
+  border-radius: 5px;
+  margin-top: 20px;
+  background-color: #1a1942;
+}
+
+.addButton{
+    margin-top: 10px;
+    margin-left: 10px;
+    cursor: pointer;
+  span{
+    margin-left: 10px;
+  }
+  span:hover{
+    background-color: #34326e;
+  }
+}
+
+
+
+
